@@ -141,16 +141,31 @@ main{
     }
 }
 /**********Contacto**********/
-.contacto{
+.main-contacto{
+    display: flex;
     background-color: #e0d1ed;
-    text-align: center;
     background-size: cover;
     background-position: center center;
     background-image: none;
+    height: 80vh;
+    align-items: center;
+}
+
+.contacto-contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 40%;
+    height: 70vh;
+    background-color: white;
+    margin-left: 5%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 40px;
 }
 
 .tituloPagina {
-    padding: 5%;
+    width: 100%;
+    text-align: center;
 }
 
 .iconos{
@@ -163,6 +178,7 @@ main{
     text-align: justify;
     margin: 0 auto;
     padding: 0 10%;
+    width: 100%;
 }
 h5 {
     padding-bottom: 2%;
@@ -173,6 +189,7 @@ h5 {
     height: 300px;
     padding: 2% 0;
     border: 1px solid;
+    width: 100%;
 }
 
 /**********Productos**********/
