@@ -143,6 +143,7 @@ main{
 /**********Contacto**********/
 .main-contacto{
     display: flex;
+    justify-content: center;
     background-color: #e0d1ed;
     background-size: cover;
     background-position: center center;
@@ -156,11 +157,11 @@ main{
     flex-direction: column;
     justify-content: space-evenly;
     width: 40%;
-    height: 70vh;
+    height: 75vh;
     background-color: white;
-    margin-left: 5%;
-    border-radius: 20px;
-    box-shadow: 5px 5px 40px;
+    /* margin-left: 5%; */
+    border-radius: 8px;
+    box-shadow: 5px 5px 8px grey;
 }
 
 .tituloPagina {
@@ -185,7 +186,7 @@ h5 {
 }
 
 .mapa {
-    width: 100%;
+    width: 80%;
     height: 300px;
     padding: 2% 0;
     border: 1px solid;
