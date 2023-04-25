@@ -162,6 +162,14 @@ main{
     border-radius: 20px;
     box-shadow: 5px 5px 40px;
 }
+@media (max-width: 600px){
+    .contacto-contenedor{
+        display: flex;
+        justify-content: center;
+        width: 200%;
+        margin-right: 5%;
+    }
+}
 
 .tituloPagina {
     width: 100%;
