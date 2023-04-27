@@ -177,7 +177,7 @@ main {
 @media (max-width: 600px) {
     .contacto-contenedor {
         display: flex;
-        justify-content: center;
+        /* justify-content: center; */
         width: 200%;
         margin-left: 5%;
         margin-right: 5%;
@@ -211,16 +211,19 @@ main {
 
 h5 {
     padding-bottom: 2%;
+    height: 10%;
 }
 
 .mapa {
     width: 80%;
-    height: 300px;
     padding: 2% 0;
     border: 1px solid;
     width: 100%;
 }
 
+iframe{
+    height: 85%;
+}
 /**********Productos**********/
 .tituloProductos {
     text-align: center;
